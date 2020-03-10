@@ -19,12 +19,7 @@
             } 
             if (string === "I love you, Grandma."){
               return 'I love you, too.'
-            }
-          }
-        }
-      }
-    }
-  }
+
 describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
     expect(shout('hello')).toEqual('HELLO')
